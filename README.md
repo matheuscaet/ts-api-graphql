@@ -1,4 +1,4 @@
-# ts-api
+# ts-api-graphql
 
 Modelo de Microserviço em Typescript, GraphQL e MongoDB
 
