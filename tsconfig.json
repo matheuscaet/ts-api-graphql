@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@shared/*": ["shared/*"],
+      "@domain/*": ["core/domain/*"],
+      "@controllers/*": ["api/controllers/*"]
+    }
+  }
+}
