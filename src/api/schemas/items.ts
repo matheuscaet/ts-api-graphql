@@ -12,6 +12,12 @@ class Items implements IItem{
     
     @Field()
     desc!: string;
+
+    @Field({nullable:true})
+    createdAt?: Date;
+    
+    @Field({nullable:true})
+    updatedAt?: Date;
     
 }
 export default Items;
